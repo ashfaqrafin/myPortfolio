@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare, FaKaggle } from "react-icons/fa";
+import { FaGithubSquare, FaTwitterSquare } from "react-icons/fa";
 import { SiCodeforces } from "react-icons/si";
+
 const Intro = () => {
   return (
     <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
@@ -89,6 +90,13 @@ const Intro = () => {
         </a>
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.x.com/ashfaqrafin"
+          target="_blank"
+        >
+          <FaTwitterSquare />
+        </a>
+        <a
+          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://linkedin.com/in/ashfaqrafin"
           target="_blank"
         >
@@ -100,13 +108,6 @@ const Intro = () => {
           target="_blank"
         >
           <SiCodeforces />
-        </a>
-        <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.kaggle.com/ashfaqkhanrafin"
-          target="_blank"
-        >
-          <FaKaggle />
         </a>
       </motion.div>
     </section>
