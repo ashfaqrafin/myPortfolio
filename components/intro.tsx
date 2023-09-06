@@ -6,6 +6,7 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare, FaTwitterSquare } from "react-icons/fa";
 import { SiCodeforces } from "react-icons/si";
+import AnimatedText from "./animated-text";
 
 const Intro = () => {
   return (
@@ -52,10 +53,7 @@ const Intro = () => {
         <span className="font-bold">
           Hello, I'm Ashfaq Khan from Bangldesh.
         </span>{" "}
-        I'm currently taking an undergraduate degree in{" "}
-        <span className="font-bold">computer science</span> at{" "}
-        <span className="font-bold">Brac University.</span>{" "}
-        <span>I am in the first semester of my freshman year.</span>
+        I'm currently <AnimatedText />
       </motion.h1>
 
       <motion.div
