@@ -5,17 +5,17 @@ const AnimatedText = () => {
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        `learning Machine Learning`,
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
-        `learning Fullstack`,
-        1000,
-        `exploring Opensource`,
-        1000,
+        "learning Machine Learning",
+        2000, // wait 1s before replacing "Mice" with "Hamsters"
+        "learning Fullstack",
+        2000,
+        "exploring Opensource",
+        2000,
         "doing Competitive Programming",
-        1000,
+        2000,
       ]}
       wrapper="span"
-      speed={5}
+      speed={50}
       //   style={{ fontSize: "1em", display: "inline-block" }}
       repeat={Infinity}
     />
