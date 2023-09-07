@@ -19,41 +19,38 @@ const About = () => {
         <span className="font-medium">
           Hello and welcome to my portfolio! I'm thrilled to have you here.I'm
           currently pursuing a Bachelor's degree in{" "}
-          <span className="font-extrabold capitalize">Computer Science </span>{" "}
-          with a minor in{" "}
-          <span className="font-extrabold capitalize">economics </span> at{" "}
-          <span className="font-extrabold capitalize">BRAC University. </span>
+          <span className="font-black capitalize">Computer Science </span> with
+          a minor in <span className="font-black capitalize">economics </span>{" "}
+          at <span className="font-black capitalize">BRAC University. </span>
           I'm a first-year freshman, passionate about exploring the exciting
           world of technology and economics. As an aspiring computer scientist,
           I have embarked on a journey to become a well-rounded professional.
           I'm actively engaged in learning{" "}
-          <span className="font-extrabold capitalize">
+          <span className="font-black capitalize">
             full-stack development,{" "}
           </span>
           diving deep into the intricacies of{" "}
-          <span className="font-extrabold capitalize">machine learning, </span>
+          <span className="font-black capitalize">machine learning, </span>
           and honing my problem-solving skills through{" "}
-          <span className="font-extrabold capitalize">
+          <span className="font-black capitalize">
             competitive programming.{" "}
           </span>
           Additionally, I find immense satisfaction in contributing to{" "}
-          <span className="font-extrabold capitalize">open-source </span>
+          <span className="font-black capitalize">open-source </span>
           projects, where I get to collaborate with like-minded individuals to
           create impactful solutions. Beyond my academic and technical pursuits,
           I have a keen interest in understanding the dynamics of the{" "}
-          <span className="font-extrabold capitalize">
-            world economy,{" "}
-          </span>{" "}
-          <span className="font-extrabold capitalize">geopolitics </span> and{" "}
-          <span className="font-extrabold capitalize">business. </span>Exploring
-          the intersections between technology and these fields fascinates me,
-          and I believe it offers unique opportunities for innovation and
-          growth. This portfolio serves as a reflection of my academic journey,
-          projects, and the various facets of my life as a student and a curious
-          individual. I invite you to explore my work, achievements, and
-          experiences, and I hope you find inspiration in my passion for
-          learning and creating. Thank you for visiting, and I look forward to
-          sharing my progress and future endeavors with you.
+          <span className="font-black capitalize">world economy, </span>{" "}
+          <span className="font-black capitalize">geopolitics </span> and{" "}
+          <span className="font-black capitalize">business. </span>Exploring the
+          intersections between technology and these fields fascinates me, and I
+          believe it offers unique opportunities for innovation and growth. This
+          portfolio serves as a reflection of my academic journey, projects, and
+          the various facets of my life as a student and a curious individual. I
+          invite you to explore my work, achievements, and experiences, and I
+          hope you find inspiration in my passion for learning and creating.
+          Thank you for visiting, and I look forward to sharing my progress and
+          future endeavors with you.
         </span>
       </p>
     </motion.section>
