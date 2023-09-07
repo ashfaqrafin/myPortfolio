@@ -8,9 +8,12 @@ import { FaGithubSquare, FaTwitterSquare } from "react-icons/fa";
 import { SiCodeforces } from "react-icons/si";
 import AnimatedText from "./animated-text";
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
+  const { activeSection, setActiveSection, setTimeOfLastClick } =
+    useActiveSectionContext();
   return (
     <section
       ref={ref}
@@ -70,6 +73,10 @@ const Intro = () => {
         }}
       >
         <Link
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
+          }}
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
         >
