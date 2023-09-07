@@ -7,10 +7,22 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare, FaTwitterSquare } from "react-icons/fa";
 import { SiCodeforces } from "react-icons/si";
 import AnimatedText from "./animated-text";
+import { useInView } from "react-intersection-observer";
+import { useActiveSectionContext } from "@/context/active-section-context";
+import React from "react";
 
 const Intro = () => {
+  const { ref, inView } = useInView({ threshold: 0.5 });
+  const { setActiveSection } = useActiveSectionContext();
+  React.useEffect(() => {
+    if (inView) setActiveSection("Home");
+  }, [inView, setActiveSection]);
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+    <section
+      ref={ref}
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -50,10 +62,9 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">
-          Hello, I'm Ashfaq Khan from Bangldesh.
-        </span>{" "}
-        I'm currently <AnimatedText />
+        Hello, I'm <span className="font-bold">Ashfaq Khan </span>from{" "}
+        <span className="font-bold">Bangladesh. </span>I'm currently{" "}
+        <AnimatedText />
       </motion.h1>
 
       <motion.div
