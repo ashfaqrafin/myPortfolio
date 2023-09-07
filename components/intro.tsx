@@ -7,16 +7,10 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare, FaTwitterSquare } from "react-icons/fa";
 import { SiCodeforces } from "react-icons/si";
 import AnimatedText from "./animated-text";
-import { useInView } from "react-intersection-observer";
-import { useActiveSectionContext } from "@/context/active-section-context";
-import React from "react";
+import { useSectionInView } from "@/lib/hooks";
 
 const Intro = () => {
-  const { ref, inView } = useInView({ threshold: 0.5 });
-  const { setActiveSection } = useActiveSectionContext();
-  React.useEffect(() => {
-    if (inView) setActiveSection("Home");
-  }, [inView, setActiveSection]);
+  const { ref } = useSectionInView("Home", 0.5);
   return (
     <section
       ref={ref}
