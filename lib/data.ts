@@ -1,6 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { SiTensorflow, SiNextdotjs } from "react-icons/si";
+import { FaReact, FaUniversity } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Undergraduate Student",
+    location: "Dhaka, Bangladesh",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "I am currently pursuing my undergraduate degree major in Computer Science and minor in Economics at BRAC University.",
+    icon: React.createElement(FaUniversity),
+    date: "2023-present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Machine Learning Engineer",
+    location: "Dhaka, Bangladesh",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I am learning machine learning and deep learning. I have worked on projects like image classification, object detection, sentiment analysis, etc.",
+    icon: React.createElement(SiTensorflow),
+    date: "2023-present",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Dhaka, Bangladesh",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm now a full-stack developer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(SiNextdotjs),
+    date: "2022 - present",
   },
 ] as const;
 
@@ -96,7 +96,6 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
   "GraphQL",
   "Framer Motion",
   "Python",
