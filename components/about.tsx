@@ -16,30 +16,45 @@ const About = () => {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Hello and welcome to my portfolio! I'm thrilled to have you here.I'm
+          currently pursuing a Bachelor's degree in{" "}
+          <span className="font-extrabold capitalize">Computer Science </span>{" "}
+          with a minor in{" "}
+          <span className="font-extrabold capitalize">economics </span> at{" "}
+          <span className="font-extrabold capitalize">BRAC University. </span>
+          I'm a first-year freshman, passionate about exploring the exciting
+          world of technology and economics. As an aspiring computer scientist,
+          I have embarked on a journey to become a well-rounded professional.
+          I'm actively engaged in learning{" "}
+          <span className="font-extrabold capitalize">
+            full-stack development,{" "}
+          </span>
+          diving deep into the intricacies of{" "}
+          <span className="font-extrabold capitalize">machine learning, </span>
+          and honing my problem-solving skills through{" "}
+          <span className="font-extrabold capitalize">
+            competitive programming.{" "}
+          </span>
+          Additionally, I find immense satisfaction in contributing to{" "}
+          <span className="font-extrabold capitalize">open-source </span>
+          projects, where I get to collaborate with like-minded individuals to
+          create impactful solutions. Beyond my academic and technical pursuits,
+          I have a keen interest in understanding the dynamics of the{" "}
+          <span className="font-extrabold capitalize">
+            world economy,{" "}
+          </span>{" "}
+          <span className="font-extrabold capitalize">geopolitics </span> and{" "}
+          <span className="font-extrabold capitalize">business. </span>Exploring
+          the intersections between technology and these fields fascinates me,
+          and I believe it offers unique opportunities for innovation and
+          growth. This portfolio serves as a reflection of my academic journey,
+          projects, and the various facets of my life as a student and a curious
+          individual. I invite you to explore my work, achievements, and
+          experiences, and I hope you find inspiration in my passion for
+          learning and creating. Thank you for visiting, and I look forward to
+          sharing my progress and future endeavors with you.
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
       </p>
     </motion.section>
   );
