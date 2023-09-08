@@ -19,6 +19,7 @@ const nextConfig = {
         module: false,
       };
     }
+    return config;
   },
 };
 
