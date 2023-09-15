@@ -42,14 +42,14 @@ export const experiencesData = [
     icon: React.createElement(FaUniversity),
     date: "2023-present",
   },
-  // {
-  //   title: "Machine Learning Engineer",
-  //   location: "Dhaka, Bangladesh",
-  //   description:
-  //     "I am learning machine learning and deep learning. I have worked on projects like image classification, object detection, sentiment analysis, etc.",
-  //   icon: React.createElement(SiTensorflow),
-  //   date: "2023-present",
-  // },
+  {
+    title: "Aspiring ML Engineer",
+    location: "Dhaka, Bangladesh",
+    description:
+      "I am learning machine learning and deep learning. I have completed Machine Learning Specialization course by Andrew Ng",
+    icon: React.createElement(SiTensorflow),
+    date: "2023-present",
+  },
   {
     title: "Full-Stack Developer",
     location: "Dhaka, Bangladesh",
