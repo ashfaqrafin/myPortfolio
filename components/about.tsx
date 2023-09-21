@@ -16,7 +16,7 @@ const About = () => {
     >
       <SectionHeading>About Me</SectionHeading>
       <div className="text-justify shadow-md rounded-md">
-        <p className="m-6">
+        <p className="m-5 py-3">
           <span className="font-medium">
             Hello and welcome to my portfolio! I'm thrilled to have you here.I'm
             currently pursuing a Bachelor's degree in{" "}
