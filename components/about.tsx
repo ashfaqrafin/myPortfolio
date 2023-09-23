@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 const About = () => {
   const { ref } = useSectionInView("About");
@@ -15,8 +16,8 @@ const About = () => {
       id="about"
     >
       <SectionHeading>About Me</SectionHeading>
-      <div className="text-justify shadow-md rounded-md">
-        <p className="m-5 py-3">
+      <ScrollArea className="rounded-lg shadow-lg border max-md:h-[250px] max-md:w-[450px] max-[450px]:w-[300px]">
+        <p className="m-5 text-justify">
           <span className="font-medium">
             Hello and welcome to my portfolio! I'm thrilled to have you here.I'm
             currently pursuing a Bachelor's degree in{" "}
@@ -57,7 +58,7 @@ const About = () => {
             look forward to sharing my progress and future endeavors with you.
           </span>
         </p>
-      </div>
+      </ScrollArea>
     </motion.section>
   );
 };
