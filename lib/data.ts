@@ -34,14 +34,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Undergraduate Student",
-    location: "Dhaka, Bangladesh",
-    description:
-      "I am currently pursuing my undergraduate degree major in Computer Science and minor in Economics at BRAC University.",
-    icon: React.createElement(FaUniversity),
-    date: "2023-present",
-  },
+  // {
+  //   title: "Undergraduate Student",
+  //   location: "Dhaka, Bangladesh",
+  //   description:
+  //     "I am currently pursuing my undergraduate degree major in Computer Science and minor in Economics at BRAC University.",
+  //   icon: React.createElement(FaUniversity),
+  //   date: "2023-present",
+  // },
   {
     title: "Aspiring ML Engineer",
     location: "Dhaka, Bangladesh",
