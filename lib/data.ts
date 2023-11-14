@@ -34,14 +34,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  // {
-  //   title: "Undergraduate Student",
-  //   location: "Dhaka, Bangladesh",
-  //   description:
-  //     "I am currently pursuing my undergraduate degree major in Computer Science and minor in Economics at BRAC University.",
-  //   icon: React.createElement(FaUniversity),
-  //   date: "2023-present",
-  // },
+  {
+    title: "Undergraduate Student",
+    location: "Dhaka, Bangladesh",
+    description:
+      "I am currently pursuing my undergraduate degree major in Computer Science and minor in Economics at BRAC University.",
+    icon: React.createElement(FaUniversity),
+    date: "2023-present",
+  },
   {
     title: "Aspiring ML Engineer",
     location: "Dhaka, Bangladesh",
@@ -61,13 +61,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
+  // {
+  //   title: "CorpComment",
+  //   description:
+  //     "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+  //   tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+  //   imageUrl: corpcommentImg,
+  // },
   {
     title: "rmtDev",
     description:
