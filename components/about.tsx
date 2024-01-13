@@ -16,7 +16,7 @@ const About = () => {
       id="about"
     >
       <SectionHeading>About Me</SectionHeading>
-      <ScrollArea className="rounded-lg shadow-lg border max-md:h-[250px] max-md:w-[450px] max-[450px]:w-[300px]">
+      <ScrollArea className="rounded-lg shadow-lg border max-md:h-[275px] max-md:w-[450px] max-[450px]:w-[350px]">
         <p className="m-5 text-justify">
           <span className="font-medium">
             Hello and welcome to my portfolio! I'm thrilled to have you here.I'm
