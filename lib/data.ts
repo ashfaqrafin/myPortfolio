@@ -86,6 +86,7 @@ export const projectsData = [
   {
     title: "Pending",
     description: "working on my Projects",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: pendingImg,
   },
 ] as const;
