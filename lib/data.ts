@@ -83,12 +83,15 @@ export const projectsData = [
   //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
   //   imageUrl: wordanalyticsImg,
   // },
+<<<<<<< HEAD
   {
     title: "Pending",
     description: "working on my Projects",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: pendingImg,
   },
+=======
+>>>>>>> origin/main
 ] as const;
 
 export const skillsData = [
