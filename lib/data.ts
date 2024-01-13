@@ -112,3 +112,4 @@ export const skillsData = [
   "Linux",
   "Bash",
 ] as const;
+// nothing
