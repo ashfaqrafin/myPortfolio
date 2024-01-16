@@ -1,10 +1,12 @@
+import { Tailwind } from "@react-email/tailwind";
 import React from "react";
 import { SiTensorflow, SiNextdotjs } from "react-icons/si";
 import { FaReact, FaUniversity } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import pendingImg from "@/public/pending.jpeg";
+import pendingImg from "@/public/pending.png";
+import cpImg from "@/public/cp.jpeg";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -83,12 +85,17 @@ export const projectsData = [
   //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
   //   imageUrl: wordanalyticsImg,
   // },
-
   {
     title: "Pending",
     description: "working on my Projects",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: pendingImg,
+  },
+  {
+    title: "CP",
+    description: "working on my Projects",
+    tags: ["??????"],
+    imageUrl: cpImg,
   },
 ] as const;
 
