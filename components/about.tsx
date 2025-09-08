@@ -22,7 +22,7 @@ const About = () => {
             Hello and welcome to my portfolio! I'm thrilled to have you here.I'm
             currently pursuing a Bachelor's degree in{" "}
             <span className="font-black capitalize">Computer Science </span>{" "}
-            with a minor in{" "}
+            and{" "}
             <span className="font-black capitalize">economics </span> at{" "}
             <span className="font-black capitalize">BRAC University. </span>
             I'm a first-year freshman, passionate about exploring the exciting
